@@ -2,9 +2,9 @@
   "name": "my-discord-rpc-app",
   "version": "1.0.0",
   "description": "A Discord RPC app",
-  "main": "api/update-discord-presence.js",
+  "main": "update-discord-presence.js",
   "scripts": {
-    "start": "node api/update-discord-presence.js"
+    "start": "node update-discord-presence.js"
   },
   "dependencies": {
     "discord-rpc": "^9.0.0",
