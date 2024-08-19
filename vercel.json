@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/update-discord-presence.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/update-discord-presence", "dest": "/api/update-discord-presence.js" }
+  ]
+}
